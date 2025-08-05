@@ -14,7 +14,6 @@ Each section of the dashboard connects to a different real-world API:
 | Currency Rates  | exchangerate-api.com                            | Converts USD to EUR                         |
 | Trending Movies | themoviedb.org                                  | Displays 3 random trending movies           |
 | GitHub User     | api.github.com                                  | Displays a random GitHub user profile       |
-| Random Joke     | jokeapi.dev                                     | Displays a random joke                      |
 | Public APIs     | api.adviceslip.com                              | Displays a random piece of advice           |
 
 ## Technologies Used
@@ -71,7 +70,6 @@ project-folder/
 - ExchangeRate API – https://www.exchangerate-api.com
 - TMDB – https://www.themoviedb.org
 - GitHub REST API – https://docs.github.com/en/rest
-- JokeAPI – https://jokeapi.dev
 - Advice Slip – https://api.adviceslip.com
 
 ## Author

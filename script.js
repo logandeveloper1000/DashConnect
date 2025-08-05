@@ -86,20 +86,6 @@ async function getGitHubUser() {
   }
 }
 
-async function getJoke() {
-  const output = document.getElementById("joke-output");
-  output.innerHTML = "Loading...";
-  try {
-    const res = await fetch("https://v2.jokeapi.dev/joke/Any");
-    const data = await res.json();
-    output.innerHTML = data.type === "single"
-      ? `<p>${data.joke}</p>`
-      : `<p>${data.setup}</p><p><em>${data.delivery}</em></p>`;
-  } catch (error) {
-    output.innerHTML = "Failed to fetch joke.";
-  }
-}
-
 async function getPublicApiInfo() {
   const output = document.getElementById("publicapi-output");
   output.innerHTML = "Loading...";
