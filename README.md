@@ -74,8 +74,8 @@ project-folder/
 
 ## Author
 
-Created by [Your Name]  
-Email: your.email@example.com
+Created by Gabriel Logan
+Email: logandeveloper1000@gmail.com
 
 ## License
 
